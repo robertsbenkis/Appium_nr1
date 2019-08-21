@@ -4,16 +4,16 @@ module MOBILE
     swipe_coordinates = case direction
                         when 'down'
                           { start_x: 0.5, start_y: 0.65, end_x: 0.5, end_y: 0.35,
-                            duration: 600 }
+                            duration: 300 }
                         when 'up'
                           { start_x: 0.5, start_y: 0.35, end_x: 0.5, end_y: 0.65,
-                            duration: 600 }
+                            duration: 300 }
                         when 'right'
                           { start_x: 0.02, start_y: 0.5, end_x: 0.6, end_y: 0.5,
-                            duration: 600 }
+                            duration: 300 }
                         when 'left'
                           { start_x: 0.92, start_y: 0.5, end_x: 0.64, end_y: 0.5,
-                            duration: 600 }
+                            duration: 300 }
                         else
                           raise('wrong direction selected')
                         end
